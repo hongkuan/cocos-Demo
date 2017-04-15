@@ -1,0 +1,138 @@
+﻿生成启动时间为 4/15/2017 4:51:23 PM。
+     1>项目“D:\qt_workspase\spreadsheet\spreadsheet\spreadsheet.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing sortdialog.h...
+       ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtANGLE /I.\GeneratedFiles /I. /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtCore /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtGui /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_gotocelldialog.cpp GeneratedFiles\Debug\moc_sortdialog.cpp gotocelldialog.cpp mainwindow.cpp sortdialog.cpp
+         moc_gotocelldialog.cpp
+         moc_sortdialog.cpp
+         gotocelldialog.cpp
+         mainwindow.cpp
+     1>mainwindow.cpp(11): error C2512: “Spreadsheet”: 没有合适的默认构造函数可用
+     1>mainwindow.cpp(12): error C2664: “QMainWindow::setCentralWidget”: 不能将参数 1 从“Spreadsheet *”转换为“QWidget *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(41): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(41): error C2227: “->clear”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(49): error C2653: “QFileDialog”: 不是类或命名空间名称
+     1>mainwindow.cpp(49): error C3861: “getOpenFileName”: 找不到标识符
+     1>mainwindow.cpp(68): error C2653: “QFileDialog”: 不是类或命名空间名称
+     1>mainwindow.cpp(68): error C3861: “getSaveFileName”: 找不到标识符
+     1>mainwindow.cpp(84): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(88): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(101): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(101): error C2227: “->setCurrentCell”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(109): error C2065: “QTableWidgetSelectionRange”: 未声明的标识符
+     1>mainwindow.cpp(109): error C2146: 语法错误: 缺少“;”(在标识符“range”的前面)
+     1>mainwindow.cpp(109): error C2065: “range”: 未声明的标识符
+     1>mainwindow.cpp(109): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(109): error C2227: “->selectedRange”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(110): error C2065: “range”: 未声明的标识符
+     1>mainwindow.cpp(110): error C2228: “.leftColumn”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>mainwindow.cpp(111): error C2065: “range”: 未声明的标识符
+     1>mainwindow.cpp(111): error C2228: “.rightColumn”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>mainwindow.cpp(114): error C2065: “SpreadsheetCompare”: 未声明的标识符
+     1>mainwindow.cpp(114): error C2146: 语法错误: 缺少“;”(在标识符“compare”的前面)
+     1>mainwindow.cpp(114): error C2065: “compare”: 未声明的标识符
+     1>mainwindow.cpp(115): error C2065: “compare”: 未声明的标识符
+     1>mainwindow.cpp(115): error C2228: “.keys”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>mainwindow.cpp(117): error C2065: “compare”: 未声明的标识符
+     1>mainwindow.cpp(117): error C2228: “.keys”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>mainwindow.cpp(119): error C2065: “compare”: 未声明的标识符
+     1>mainwindow.cpp(119): error C2228: “.keys”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>mainwindow.cpp(121): error C2065: “compare”: 未声明的标识符
+     1>mainwindow.cpp(121): error C2228: “.ascending”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>mainwindow.cpp(123): error C2065: “compare”: 未声明的标识符
+     1>mainwindow.cpp(123): error C2228: “.ascending”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>mainwindow.cpp(125): error C2065: “compare”: 未声明的标识符
+     1>mainwindow.cpp(125): error C2228: “.ascending”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>mainwindow.cpp(127): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(127): error C2227: “->sort”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(127): error C2065: “compare”: 未声明的标识符
+     1>mainwindow.cpp(133): error C2653: “QMessageBox”: 不是类或命名空间名称
+     1>mainwindow.cpp(139): error C2660: “MainWindow::about”: 函数不接受 3 个参数
+     1>mainwindow.cpp(153): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(153): error C2227: “->currentLocation”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(154): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(154): error C2227: “->currentFormula”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(205): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(212): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(220): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(227): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(233): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(239): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(246): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(266): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(275): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(275): error C2227: “->showGrid”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(279): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(288): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(288): error C2227: “->autoRecalculate”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(292): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 3 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(348): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(348): error C2227: “->addAction”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(349): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(349): error C2227: “->addAction”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(350): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(350): error C2227: “->addAction”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(351): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(351): error C2227: “->setContextMenuPolicy”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(383): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 1 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(385): error C2664: “QMetaObject::Connection QObject::connect(const QObject *,const char *,const QObject *,const char *,Qt::ConnectionType)”: 不能将参数 1 从“Spreadsheet *”转换为“const QObject *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>mainwindow.cpp(419): error C2653: “QMessageBox”: 不是类或命名空间名称
+     1>mainwindow.cpp(422): error C2653: “QMessageBox”: 不是类或命名空间名称
+     1>mainwindow.cpp(422): error C2065: “Yes”: 未声明的标识符
+     1>mainwindow.cpp(423): error C2065: “No”: 未声明的标识符
+     1>mainwindow.cpp(423): error C2653: “QMessageBox”: 不是类或命名空间名称
+     1>mainwindow.cpp(423): error C2065: “Cancel”: 未声明的标识符
+     1>mainwindow.cpp(419): error C3861: “warning”: 找不到标识符
+     1>mainwindow.cpp(424): error C2653: “QMessageBox”: 不是类或命名空间名称
+     1>mainwindow.cpp(424): error C2065: “Yes”: 未声明的标识符
+     1>mainwindow.cpp(426): error C2653: “QMessageBox”: 不是类或命名空间名称
+     1>mainwindow.cpp(426): error C2065: “Cancel”: 未声明的标识符
+     1>mainwindow.cpp(435): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(435): error C2227: “->readFile”的左边必须指向类/结构/联合/泛型类型
+     1>mainwindow.cpp(447): error C2027: 使用了未定义类型“Spreadsheet”
+                 d:\qt_workspase\spreadsheet\spreadsheet\mainwindow.h(9) : 参见“Spreadsheet”的声明
+     1>mainwindow.cpp(447): error C2227: “->writeFile”的左边必须指向类/结构/联合/泛型类型
+         sortdialog.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\qt_workspase\spreadsheet\spreadsheet\spreadsheet.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.54

@@ -1,0 +1,25 @@
+﻿生成启动时间为 4/15/2017 2:55:51 PM。
+     1>项目“D:\qt_workspase\FlowChartSymbolPicker\FlowChartSymbolPicker\FlowChartSymbolPicker.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing flowchartsymbolpicker.h...
+         Uic'ing flowchartsymbolpicker.ui...
+         Rcc'ing flowchartsymbolpicker.qrc...
+       ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtCore /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtGui /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt flowchartsymbolpicker.cpp GeneratedFiles\Debug\moc_flowchartsymbolpicker.cpp main.cpp
+         flowchartsymbolpicker.cpp
+         moc_flowchartsymbolpicker.cpp
+         main.cpp
+         正在生成代码...
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtCore /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtGui /ID:\Qt\Qt5.2.1\5.2.1\msvc2012_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_flowchartsymbolpicker.cpp
+         qrc_flowchartsymbolpicker.cpp
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\qt_workspase\FlowChartSymbolPicker\Win32\Debug\\FlowChartSymbolPicker.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.2.1\5.2.1\msvc2012_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\qt_workspase\FlowChartSymbolPicker\Win32\Debug\FlowChartSymbolPicker.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\qt_workspase\FlowChartSymbolPicker\Win32\Debug\FlowChartSymbolPicker.lib" /MACHINE:X86 /SAFESEH Debug\flowchartsymbolpicker.obj
+         Debug\moc_flowchartsymbolpicker.obj
+         Debug\qrc_flowchartsymbolpicker.obj
+         Debug\main.obj
+     1>Qt5Widgetsd.lib(Qt5Widgetsd.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“D:\qt_workspase\FlowChartSymbolPicker\FlowChartSymbolPicker\FlowChartSymbolPicker.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.58
