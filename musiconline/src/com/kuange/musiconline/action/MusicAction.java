@@ -43,5 +43,41 @@ public class MusicAction extends HttpServlet {
 		}
 
 	}
+	
+	public static void main(String[] args) {
+		MusicDao dao = (MusicDao) DaoFactory.getInstance("musicDao");
+		List<Music> musics = null;
+		try {
+			musics = dao.filAll();
+			//
+			JSONArray ary = JSONArray.fromObject(musics);
+			System.out.println(ary.toString());
+			
+			
+			/*if(musics != null){
+				Music music = musics.get(0);
+				dao.updateMusicName(id, music);
+			}*/
+			Music music = dao.getMusic(60);
+			if(music != null){
+				System.out.println(music);
+				System.out.println(music.getName());
+				//music.setName("青花瓷");
+				//dao.updateMusicName(60, music);
+				
+				dao.deleteMusic(60);
+				System.out.println("=================");
+				dao.addMusic(music);
+				
+			}
+			
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
 
 }

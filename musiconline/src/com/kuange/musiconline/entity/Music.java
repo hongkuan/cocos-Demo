@@ -106,4 +106,13 @@ public class Music implements Serializable{
 		this.favcount = favcount;
 	}
 
+	@Override
+	public String toString() {
+		return "Music [id=" + id + ", name=" + name + ", singer=" + singer
+				+ ", author=" + author + ", composer=" + composer + ", album="
+				+ album + ", albumpic=" + albumpic + ", musicpath=" + musicpath
+				+ ", durationtime=" + durationtime + ", downcount=" + downcount
+				+ ", favcount=" + favcount + "]";
+	}
+	
 }
