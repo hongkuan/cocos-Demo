@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">cooking</string>
+
+    <string name="category_button_text">分类</string>
+    <string name="collect_button_text">收藏</string>
+    <string name="common_layout_title_text">菜谱</string>
+
+
+    <!--category_ui_list_item-->
+    <string name="category_ui_list_item_text_view_text">菜式菜品</string>
+    <!--category_ui_list_item-->
+
+    <!--main_ui_list_item-->
+    <string name="main_ui_list_item_title_text">蒜蓉棒棒糖</string>
+    <string name="main_ui_list_item_imtro_text">豆角做成的棒棒糖吃过吗？充满了童趣的造型，一定会吸引小朋友的眼球，做个营养健康的棒棒糖送给小朋友吧，真的很好吃哦，我自己吃了一个都不想停下来了。</string>
+    <!--main_ui_list_item-->
+
+    <!--steps_ui_list_item-->
+    <string name="steps_ui_fragment_ingredients_text">材料</string>
+    <string name="steps_ui_fragment_ingredients_v_text">长豆角,200g</string>
+    <string name="steps_ui_fragment_burden_text">辅料</string>
+    <string name="steps_ui_left_text">返回</string>
+    <string name="steps_ui_fragment_burden_v_text">大蒜,适量;食盐,适量;香油,适量;鸡精,适量;白醋,适量;芝麻酱,适量</string>
+    <string name="steps_ui_list_item_step_text">1.挑选6根长短一样的长豆角洗干净。</string>
+    <!--steps_ui_list_item-->
+</resources>

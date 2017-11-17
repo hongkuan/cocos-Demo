@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/main_ui_list_item_layout_height"
+              android:orientation="horizontal"
+              android:padding="@dimen/common_dp4">
+
+    <ImageView
+        android:id="@+id/main_ui_list_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"/>
+
+    <ImageView
+        android:layout_width="@dimen/common_dp4"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left">
+
+        <TextView
+            android:id="@+id/main_ui_list_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/main_ui_list_item_title_text_size"
+            android:text="@string/main_ui_list_item_title_text"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_dp4"/>
+
+        <TextView
+            android:id="@+id/main_ui_list_item_imtro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/main_ui_list_item_imtro_text_size"
+            android:text="@string/main_ui_list_item_imtro_text"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:maxLines="2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

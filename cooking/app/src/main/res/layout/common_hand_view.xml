@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/common_hand_view_hand_linear"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/common_hand_view_linear_layout_height">
+
+    <Button
+        android:id="@+id/common_hand_view_left_button"
+        android:layout_width="@dimen/common_hand_view_button_layout_width"
+        android:layout_height="match_parent"
+        android:text="@string/category_button_text"
+        android:textSize="@dimen/common_hand_view_text_size"
+        android:background="@color/common_transparency"/>
+
+    <TextView
+        android:id="@+id/common_hand_view_title_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="菜谱"/>
+
+    <Button
+        android:id="@+id/common_hand_view_right_button"
+        android:layout_width="@dimen/common_hand_view_button_layout_width"
+        android:layout_height="match_parent"
+        android:text="@string/collect_button_text"
+        android:textSize="@dimen/common_hand_view_text_size"
+        android:background="@color/common_transparency"/>
+
+</LinearLayout>

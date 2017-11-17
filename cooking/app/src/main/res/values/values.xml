@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_dp4">4dp</dimen>
+    <dimen name="common_dp6">6dp</dimen>
+    <dimen name="common_hand_view_linear_layout_height">32dp</dimen>
+    <dimen name="common_hand_view_button_layout_width">48dp</dimen>
+    <dimen name="common_hand_view_text_size">14sp</dimen>
+
+    <!--category_ui-->
+    <dimen name="category_ui_list_item_text_view_text_size">12sp</dimen>
+    <dimen name="category_ui_grid_item_text_view_text_size">18sp</dimen>
+    <dimen name="category_ui_list_item_text_view_layout_height">24dp</dimen>
+    <!--category_ui-->
+
+    <!--main_ui-->
+    <dimen name="main_ui_list_item_layout_height">64dp</dimen>
+    <dimen name="main_ui_list_item_title_text_size">16sp</dimen>
+    <dimen name="main_ui_list_item_imtro_text_size">12sp</dimen>
+    <!--main_ui-->
+
+    <!--steps_ui-->
+    <dimen name="steps_ui_fragment_icon_layout_height">64dp</dimen>
+    <dimen name="steps_ui_list_item_icon_layout_height">192dp</dimen>
+    <dimen name="steps_ui_list_item_icon_layout_width">192dp</dimen>
+    <dimen name="steps_ui_fragment_burden_v_layout_marginLeft">14dp</dimen>
+    <dimen name="steps_ui_fragment_burden_v_layout_marginRight">14dp</dimen>
+    <!--main_ui-->
+
+</resources>
